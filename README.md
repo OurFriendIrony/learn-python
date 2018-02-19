@@ -1,1 +1,1 @@
-Playground repo for learning Pythong
+Playground repo for learning Python
