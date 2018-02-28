@@ -34,7 +34,7 @@ for f in listdir('.'):
             for match in re.finditer(regex_string, line):
                 found = True
                 # if in verbose mode, show each line it found it at
-                if verbose_mode == 'Y':
+                if verbose_mode.upper() == 'Y':
                     print('  [%s] %s' % (i+1, line.strip()))
 
         # If the string was found anywhere, add it to summary list
