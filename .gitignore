@@ -1,3 +1,9 @@
+# vim
 **/*.swp
 
+# intellij
 .idea/
+
+# build
+**/*.pyc
+
